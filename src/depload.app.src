@@ -1,0 +1,10 @@
+{application, depload,
+ [
+  {description, "depload:ensure_all/1 to load OTP dependencies used by your application"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [kernel,
+                  stdlib,
+                  asn1]},
+  {env, []}
+ ]}.
